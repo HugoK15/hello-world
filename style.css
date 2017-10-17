@@ -9,16 +9,19 @@ body {
 	padding-left: 10px;
 }
 img{
-	
-	width:300px;
-	height:200px;
+	float:right;
+	width:400px;
+	height:250px;
+	margin-top:100px;
+	margin-right: 25px;
 }
 
 legend {
 	font-style: italic;
 	position: absolute;
 	top: 350px;
-	left: 400px;
+	left: 350px;
+	text-align:right;
 }
 
 h1{
@@ -26,5 +29,14 @@ h1{
 	font-size: 48px;
 	color:navy;
 	text-align: center;
-	margin:auto;
+	
+}
+
+#auteur{
+	text-align:right;
+}
+div{
+	width:700px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	float:left;
 }
