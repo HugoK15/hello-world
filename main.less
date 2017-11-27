@@ -1,0 +1,38 @@
+
+@font-family:"Roboto";
+@color:#222A31;
+@img-size:300px;
+@root-size:16px;
+@root-size:unit((24px / @root-size),em);
+@font-size-large: font-size* 1.3;
+
+/**Base**/
+body{
+    font:@font-size/1.5em @font-family;
+    color:@color;
+}
+
+img{
+	width: @img-size;
+}
+.img {
+	text-align: center;
+}
+
+/** Grille **/
+.wrapper{
+    margin: 0 auto;
+}
+
+.wrapper-mixin(width: auto){
+    width: @width;
+}
+
+@media screen and (min-width:50rem){
+    .wrapper(50rem);
+}
+
+@media screen and (min-width:64rem){
+    .wrapper(64rem);
+}
+
